@@ -1,0 +1,10 @@
+services:
+  pgdb:
+    image: pgvector/pgvector:pg17
+    container_name: pgvector_db
+    environment:
+      POSTGRES_USER: nadika
+      POSTGRES_PASSWORD: nadika
+      POSTGRES_DB: jobins
+    ports: 
+      - "5432:5432"
