@@ -112,6 +112,9 @@ pip install -r requirements.txt
     - add_embeddings.py : Store initial jobs and its embeddings in postgres.
     - find_top_jobs.py : Fetch matched top n jobs.
     - recommendations.json : Top n jobs matched for CV file(Nadika_Poudel_CV__.pdf)
+    - find_top_jobs_without_clustering.py : Since, running LLM locally on Ollama takes a lot of time. Here, recommendation system can be tested passing CV key details on json file.
+    -CV2.json and CV3.json : Sample key details of CV.
+    - recommendations2.json and recommendations3.json : Job recommendations fetched for CV2.json and CV3.json respectively.
 
 3. job_title_desc.csv : Dataset of job vacanies with job_title and job_description.
 
