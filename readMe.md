@@ -23,6 +23,18 @@ Implemented the system in two different ways with different vector-store used.
 - Json file with top n recommendations. One on the top is highly relevant than others. 
 - faiss_vectorstore/recommendations.json  ( Example above)
 
+## Setup
+- Setup postgres SQL and pgvector using docker file.
+```bash
+docker compose up -d
+```
+
+- Install other requirements using requirements.txt
+
+```bash
+pip install -r requirements.txt
+```
+
 
 ## Implementation Details
 
@@ -89,6 +101,21 @@ Implemented the system in two different ways with different vector-store used.
 </p>
 
 - **Current Issues:** Recommendation with the clustering didnot work well. So, need to improve it. 
+
+## File Descriptions
+1. faiss_vectorstore : Includes files for setup with FAISS vectorstore
+    - cv_matching.py : Store job vacancy with its embeddings if not present. Else fetch the stored embeddings. Parse the CV and give top n matched job vacancies.
+
+    - recommendations.json : Top n jobs matched for CV file( Nadika_Poudel_CV__.pdf)
+
+2. pgvector: Includes files for setup with pgvector and Postgres SQL
+    - add_embeddings.py : Store initial jobs and its embeddings in postgres.
+    - find_top_jobs.py : Fetch matched top n jobs.
+    - recommendations.json : Top n jobs matched for CV file(Nadika_Poudel_CV__.pdf)
+
+3. job_title_desc.csv : Dataset of job vacanies with job_title and job_description.
+
+4. Nadika_Poudel_CV__.pdf : Example CV file tested with. 
 
 ## Future work:
 - Generate test dataset and check the relevancy of the CV with the job vancancy. This will assess the performance of recommendation system.
