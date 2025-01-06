@@ -1,0 +1,102 @@
+{
+    "basics": {
+        "name": "Alice Smith",
+        "email": "alice.smith@example.com",
+        "phone": "+1-234-567-8901",
+        "location": {
+            "city": "San Francisco",
+            "state": "California",
+            "country": "USA"
+        },
+        "summary": "Experienced Java Developer with 5+ years of expertise in designing, developing, and maintaining robust Java-based applications. Proficient in frameworks like Spring and Hibernate, with a strong foundation in object-oriented programming, software development lifecycle, and agile methodologies."
+    },
+    "work_experience": [
+        {
+            "company": "Tech Innovations Ltd.",
+            "position": "Senior Java Developer",
+            "years": "3 years",
+            "description": "Led a team of 5 developers to design and implement scalable Java applications using Spring Boot and Hibernate. Improved application performance by 25% through efficient code refactoring and optimization.",
+            "key_responsibilities": [
+                "Developed RESTful APIs to support web and mobile applications.",
+                "Designed and implemented microservices architecture.",
+                "Ensured high application performance by writing unit tests using JUnit.",
+                "Collaborated with the DevOps team to streamline CI/CD pipelines."
+            ]
+        },
+        {
+            "company": "NextGen Tech Solutions",
+            "position": "Java Developer",
+            "years": "2 years",
+            "description": "Contributed to the development of Java-based enterprise solutions and enhanced application performance using best practices.",
+            "key_responsibilities": [
+                "Built and maintained web applications using Java, JSP, and Servlets.",
+                "Implemented database integration with MySQL and PostgreSQL.",
+                "Participated in code reviews to maintain high-quality standards.",
+                "Resolved bugs and optimized code to reduce technical debt."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "degree": "Bachelor of Science in Computer Science",
+            "institution": "University of California, Berkeley",
+            "years": "2013 - 2017",
+            "description": "Graduated with honors, focusing on software development and algorithms."
+        }
+    ],
+    "skills": [
+        "Java",
+        "Spring Boot",
+        "Hibernate",
+        "RESTful APIs",
+        "Microservices",
+        "SQL",
+        "NoSQL (MongoDB)",
+        "JUnit",
+        "Git",
+        "Docker",
+        "Kubernetes",
+        "Agile Methodologies"
+    ],
+    "certifications": [
+        {
+            "title": "Oracle Certified Professional: Java SE 11 Developer",
+            "issued_by": "Oracle",
+            "year": 2018
+        },
+        {
+            "title": "Spring Professional Certification",
+            "issued_by": "VMware",
+            "year": 2020
+        }
+    ],
+    "projects": [
+        {
+            "title": "E-Commerce Platform",
+            "description": "Developed a scalable and high-performance e-commerce platform that handled 100,000+ daily transactions.",
+            "technologies": ["Java", "Spring Boot", "MySQL", "Docker"],
+            "key_contributions": [
+                "Implemented a secure payment gateway integration.",
+                "Optimized database queries for faster response times."
+            ]
+        },
+        {
+            "title": "Employee Management System",
+            "description": "Created an internal employee management system to streamline HR operations.",
+            "technologies": ["Java", "Hibernate", "PostgreSQL"],
+            "key_contributions": [
+                "Designed and implemented user authentication and role-based access control.",
+                "Built a robust reporting system for performance reviews."
+            ]
+        }
+    ],
+    "languages": [
+        "English (Fluent)",
+        "Spanish (Intermediate)"
+    ],
+    "interests": [
+        "Open Source Contributions",
+        "Competitive Coding",
+        "Cloud Computing"
+    ]
+}

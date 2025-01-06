@@ -1,0 +1,30 @@
+{
+    "basics": {
+        "name": "John Doe",
+        "email": "johndoe@example.com"
+    },
+    "work_experience": [
+        {
+            "company": "TechCorp",
+            "position": "Machine Learning Engineer",
+            "years": "3 years",
+            "description": "Developed and deployed machine learning models for predictive analytics."
+        },
+        {
+            "company": "AI Solutions",
+            "position": "Data Scientist",
+            "years": "2 years",
+            "description": "Performed data preprocessing and feature engineering for AI projects."
+        }
+    ],
+    "skills": [
+        "Python", "Machine Learning", "Deep Learning", "NLP", "TensorFlow", "PyTorch"
+    ],
+    "projects": [
+        {
+            "title": "Fraud Detection System",
+            "description": "Built a machine learning model to detect fraudulent transactions.",
+            "technologies": ["Python", "TensorFlow", "SQL"]
+        }
+    ]
+}
