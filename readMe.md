@@ -24,6 +24,8 @@ Implemented the system in two different ways with different vector-store used.
 - faiss_vectorstore/recommendations.json  ( Example above)
 
 ## Setup
+
+
 - Setup postgres SQL and pgvector using docker file.
 ```bash
 docker compose up -d
@@ -35,6 +37,28 @@ docker compose up -d
 pip install -r requirements.txt
 ```
 
+
+
+- ### Setting up Ollama
+1. Download and Install Ollama
+Visit Ollama's download page https://ollama.com/download and follow the installation instructions specific to your operating system (Windows, macOS, or Linux). 
+
+2. Pull Required Models
+To use the LLaMA models for auto-evaluation, pull them locally by running the following commands:
+
+```bash
+ollama run llama3.1
+```
+
+
+3. Start the Ollama Server
+After pulling the models, start the Ollama server to serve the models:
+
+```bash
+ollama serve 
+```
+
+**Note: Make sure that Ollama runs in background while running the app**
 
 ## Implementation Details
 
