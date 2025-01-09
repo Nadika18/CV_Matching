@@ -60,6 +60,22 @@ ollama serve
 
 **Note: Make sure that Ollama runs in background while running the app**
 
+
+- ### Running the app
+    - Run implementation with pgvector:
+    ```bash
+    cd pgvector
+    python3 add_embeddings.py
+    python3 find_top_jobs.py
+    ```
+
+    - Run implementation with Faiss vector store:
+    ```bash
+    cd faiss_vectorstore
+    python3 cv_matching.py
+    ```
+
+        
 ## Implementation Details
 
 ### CV Parsing
