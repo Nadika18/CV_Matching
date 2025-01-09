@@ -15,6 +15,9 @@ Implemented the system in two different ways with different vector-store used.
 - pgvector with database on Postgres SQL
 - FAISS vector-store
 
+#### Dataset:
+[Jobs and Job Description Dataset on Kaggle](https://www.kaggle.com/datasets/kshitizregmi/jobs-and-job-description) 
+
 #### Input: 
 - Pdf file of CV
 - Nadika_Poudel_CV__.pdf (Example above )
